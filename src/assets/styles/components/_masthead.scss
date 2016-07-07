@@ -1,0 +1,24 @@
+.c-masthead {
+  display: flex;
+  height: 80vh;
+  background-color: $primary;
+
+  &__content {
+    margin: auto;
+    text-align: center;
+  }
+
+  &__title,
+  &__subtitle {
+    color: #fff;
+    margin: 0;
+  }
+
+  &__title {
+    text-transform: uppercase;
+  }
+
+  &__subtitle {
+    font-family: $body-font;
+  }
+}

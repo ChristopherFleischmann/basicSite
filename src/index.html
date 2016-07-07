@@ -10,17 +10,73 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
 
-        <link rel="stylesheet" href="/assets/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Katibeh|Raleway" rel="stylesheet">
+        <link rel="stylesheet" href="/assets/styles/main.css">
     </head>
     <body>
         <!--[if lt IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <section id="content" role="main">
-            <article class="page-content">
-                <!-- Content goes here -->
-            </article>
-        </section>
+        <header class="p-header">
+          <div class="c-navbar">
+            <ul class="c-nav-list">
+              <li class="c-nav-item">Home</li>
+              <li class="c-nav-item">About</li>
+              <li class="c-nav-item">Media</li>
+              <li class="c-nav-item">Contact</li>
+            </ul>
+          </div>
+        </header>
+        <main id="content" role="main" class="p-main">
+            <section class="c-masthead">
+              <div class="c-masthead__content">
+                <h1 class="c-masthead__title">Christopher Fleischmann</h1>
+                <h4 class="c-masthead__subtitle">An aspiring web developer from Houston Texas</h4>
+              </div>
+            </section>
+            <section class="c-page-section" id="about">
+              <div class="l-wrapper">
+                <h2 class="c-heading">About</h2>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+              </div>
+            </section>
+            <section class="c-page-section" id="porfolio">
+              <div class="l-wrapper">
+                <h2 class="c-heading">Portfolio</h2>
+                <ul class="c-portfolio-list">
+                  <li class="c-portfolio-item">
+                    <img src="./assets/images/test.jpeg" alt="" class="c-portfolio-item__bg-image">
+                    <a href="/" class="c-portfolio-item__link">
+                      <h3 class="c-portfolio-item__title">Website 1</h3>
+                    </a>
+                  </li>
+                  <li class="c-portfolio-item">
+                    <img src="./assets/images/photo-2.jpeg" alt="" class="c-portfolio-item__bg-image">
+                    <a href="/" class="c-portfolio-item__link">
+                      <h3 class="c-portfolio-item__title">Website 2</h3>
+                    </a>
+                  </li>
+                  <li class="c-portfolio-item">
+                    <img src="./assets/images/photo-3.jpeg" alt="" class="c-portfolio-item__bg-image">
+                    <a href="/" class="c-portfolio-item__link">
+                      <h3 class="c-portfolio-item__title">Website 3</h3>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </section>
+            <section class="c-page-section" id="contact">
+                <div class="l-wrapper">
+                  <h2 class="c-heading">Contact</h2>
+                  <p>
+                    Email me at <a href="">cfleischmann@nclud.com</a>
+                  </p>
+                </div>
+            </section>
+        </main>
+        <footer class="p-footer">
+
+        </footer>
 
         <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="/assets/scripts/vendor/jquery-3.0.0.min.js"><\/script>')</script>
